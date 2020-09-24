@@ -1,0 +1,95 @@
+* {
+  background-color: #dd9335;
+  color: black;
+  font-family: Neuron Angeled Smallcaps;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: left;
+  padding: 0px 10%;
+}
+
+.nav_links {
+  list-style: none;
+  position: absolute;
+  top: 75px;
+  right: 100px;
+}
+
+.nav_links li {
+  display: inline-block;
+  padding: 0px 30px;
+}
+
+.nav_links li a {
+  transition: all 0.3s ease 0s;
+}
+
+.nav_links li a:hover {
+  color: grey;
+}
+
+.logo {
+  position: absolute;
+  top: 0px;
+  left: 25px;
+}
+
+.main_photo {
+  position: absolute;
+  top: 225px;
+  left: 550px;
+}
+
+.card {
+  width: 332px;
+  height: 221.5px;
+  background: url("/img/filming_bw.png") no-repeat;
+  margin-top: 140px;
+  margin-left: 75px;
+}
+
+.card:hover {
+  background: url(/img/filming_color.png) no-repeat;
+  transition: 1s;
+}
+
+.card_pop {
+  width: 332px;
+  height: 221.5px;
+  background: url("/img/popcorn_bw.png") no-repeat;
+  margin-top: 30px;
+  margin-left: 75px;
+}
+
+.card_pop:hover {
+  background: url(/img/popcorn_color.png);
+  transition: 1s;
+}
+
+.card_cut {
+  width: 332px;
+  height: 221.5px;
+  background: url("/img/cut_bw.png") no-repeat;
+  margin-top: 30px;
+  margin-left: 75px;
+}
+
+.card_cut:hover {
+  background: url(/img/cut_color.png) no-repeat;
+  transition: 1s;
+}
+
+.cut {
+  position: absolute;
+  top: 600px;
+  left: 75px;
+}
+
+footer {
+  position: absolute;
+  top: 1000px;
+  left: 0px;
+}
